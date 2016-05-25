@@ -58,10 +58,9 @@ namespace COMP123_s2016_Lab2
         * @constructor Person
         */
 
-        public void SaysHelloMessage()
+        public Person()
         {
-            Console.WriteLine("{0}, says hello", this._name);
-            //this._name = "Meer";
+            this._name = "Meer";
         }
 
         /**
@@ -72,9 +71,9 @@ namespace COMP123_s2016_Lab2
         * @param {string} name
         */
 
-       //public Person(string SayHello)
-       // {
-       //    this._name = SayHello;
-       //}
+        public void SaysHelloMessage()
+        {
+            Console.WriteLine("{0}, says hello", this._name);
+        }
     }
 }
