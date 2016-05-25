@@ -30,9 +30,11 @@ namespace COMP123_s2016_Lab2
 
             // set a value in the Name properly of the Person class
             person.Name = ("Meer");
+            person.Age = (26);
 
             // get the Name Value and print to console
             Console.WriteLine("{0}, says hello", person.Name);
+            Console.WriteLine("{0}, is {1} years old", person.Name, person.Age);
         }
     }
 }
