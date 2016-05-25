@@ -76,6 +76,10 @@ namespace COMP123_s2016_Lab2
         public void SaysHelloMessage()
         {
             Console.WriteLine("{0}, says hello", this._name);
+        }
+
+        public void ShowAge()
+        {
             Console.WriteLine("{0}, is {1} years old", this._name, this._age);
         }
     }
