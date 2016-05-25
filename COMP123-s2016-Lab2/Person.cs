@@ -16,7 +16,7 @@ namespace COMP123_s2016_Lab2
     {
         // Private Intance variables ++++++++++++++++++++++++++++++++++++
         private string _name;
-        private int _age;
+        //private int _age;
 
         // Public properties ++++++++++++++++++++++++++++++++++++++++++++
 
@@ -39,18 +39,18 @@ namespace COMP123_s2016_Lab2
             }
         }
 
-        public int Age
-        {
-            get
-            {
-                return this._age;
-            }
-
-            set
-            {
-                this._age = value = 26;
-            }
-        }
+        //public int Age
+        //{
+        //    get
+        //    {
+        //        return this._age;
+        //    }
+        //
+        //    set
+        //    {
+        //        this._age = value = 26;
+        //    }
+        //}
         
         /**
         * This is the default empty constructor for the Persons Class
@@ -58,9 +58,10 @@ namespace COMP123_s2016_Lab2
         * @constructor Person
         */
 
-        public Person()
+        public void SaysHelloMessage()
         {
-            this._name = "Meer";
+            Console.WriteLine("{0}, says hello", this._name);
+            //this._name = "Meer";
         }
 
         /**
@@ -71,9 +72,9 @@ namespace COMP123_s2016_Lab2
         * @param {string} name
         */
 
-        public Person(string SayHello)
-        {
-            this._name = SayHello;
-        }
+       //public Person(string SayHello)
+       // {
+       //    this._name = SayHello;
+       //}
     }
 }
