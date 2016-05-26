@@ -29,8 +29,8 @@ namespace COMP123_s2016_Lab2
             //Console.WriteLine(person.Name);
 
             // set a value in the Name properly of the Person class
-            person.Name = ("Meer");
-            person.Age = (26);
+            //person.Name = ("Meer");
+            //person.Age = (26);
 
             // get the Name Value and print to console
             Console.WriteLine("{0}, says hello", person.Name);
