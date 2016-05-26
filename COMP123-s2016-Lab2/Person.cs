@@ -71,6 +71,7 @@ namespace COMP123_s2016_Lab2
         *
         * @constructor Person
         * @param {string} name
+        * @param {int} age
         */
 
         public void SaysHelloMessage()
