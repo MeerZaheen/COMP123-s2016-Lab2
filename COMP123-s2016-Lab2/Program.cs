@@ -33,8 +33,8 @@ namespace COMP123_s2016_Lab2
             //person.Age = (26);
 
             // get the Name Value and print to console
-            Console.WriteLine("{0}, says hello", person.Name);
-            Console.WriteLine("{0}, is {1} years old", person.Name, person.Age);
+            Console.WriteLine("{0} says hello", person.Name);
+            Console.WriteLine("{0} is {1} years old", person.Name, person.Age);
         }
     }
 }
