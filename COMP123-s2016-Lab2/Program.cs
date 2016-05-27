@@ -26,16 +26,24 @@ namespace COMP123_s2016_Lab2
 
             Person Ashley = new Person();
             Ashley.Name = "Ashley";
+            Ashley.Profession = "Nurse";
+            Ashley.CollegeOrUniversity = "Ryerson University";
             Ashley.Age = 22;
             Ashley.SaysHello();
             Ashley.ShowAge();
+            Ashley.ShowProfession();
+            Ashley.ShowCollegeOrUniversity();
 
             Console.WriteLine();
 
             Person Meer = new Person("Meer");
+            Meer.Profession = "Student";
+            Meer.CollegeOrUniversity = "Centennial College";
             Meer.Age = 26;
             Meer.SaysHello();
             Meer.ShowAge();
+            Meer.ShowProfession();
+            Meer.ShowCollegeOrUniversity();
 
             Console.WriteLine();
         }
