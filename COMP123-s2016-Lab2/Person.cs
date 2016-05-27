@@ -122,7 +122,7 @@ namespace COMP123_s2016_Lab2
             this.Name = "Unknown Name";
             this.Age = 0;
             this.Profession = "Unknown Profession";
-            this.CollegeOrUniversity = "Unknown College";
+            this.CollegeOrUniversity = "Unknown College/University";
         }
 
         /**
