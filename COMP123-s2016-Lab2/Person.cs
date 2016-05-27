@@ -15,13 +15,13 @@ namespace COMP123_s2016_Lab2
     */
     public class Person
     {
-        // Private Intance variables ++++++++++++++++++++++++++++++++++++
+        // Private Intance variables ++++++++++++++++++++++++++++++++++++++
         private string _name;
         private int _age;
         private string _profession;
         private string _collegeOrUniversity;
 
-        // Public properties ++++++++++++++++++++++++++++++++++++++++++++
+        // Public properties ++++++++++++++++++++++++++++++++++++++++++++++
 
 
         /**
