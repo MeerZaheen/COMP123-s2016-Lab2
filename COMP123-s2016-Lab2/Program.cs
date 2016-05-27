@@ -21,6 +21,31 @@ namespace COMP123_s2016_Lab2
         */
         public static void Main(string[] args)
         {
+            // create a new instance of the Person class
+            Console.WriteLine();
+
+            Person Ashley = new Person();
+            Ashley.Name = "Ashley";
+            Ashley.Age = 22;
+            Ashley.SaysHello();
+            Ashley.ShowAge();
+
+            Console.WriteLine();
+
+            Person Meer = new Person("Meer");
+            Meer.Age = 26;
+            Meer.SaysHello();
+            Meer.ShowAge();
+
+            Console.WriteLine();
+        }
+    }
+}
+
+        /* MY CODE MISTAKES
+
+        public static void Main(string[] args)
+        {
             Person person;
 
             // create a new instance for the Person class
@@ -36,5 +61,4 @@ namespace COMP123_s2016_Lab2
             Console.WriteLine("{0} says hello", person.Name);
             Console.WriteLine("{0} is {1} years old", person.Name, person.Age);
         }
-    }
-}
+        */
