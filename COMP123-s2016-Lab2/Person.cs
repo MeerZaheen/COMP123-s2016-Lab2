@@ -18,6 +18,7 @@ namespace COMP123_s2016_Lab2
         // Private Intance variables ++++++++++++++++++++++++++++++++++++
         private string _name;
         private int _age;
+        private string _profession;
 
         // Public properties ++++++++++++++++++++++++++++++++++++++++++++
 
@@ -63,6 +64,21 @@ namespace COMP123_s2016_Lab2
             }
         }
 
+        // _profession field
+
+        public string Profession
+        {
+            get
+            {
+                return this._profession;
+            }
+            
+            set
+            {
+                this._profession = value;
+            }
+        }
+
         // CONSTRUCTORS ++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
         /**
@@ -77,6 +93,7 @@ namespace COMP123_s2016_Lab2
         {
             this.Name = "Unknown Name";
             this.Age = 0;
+            this.Profession = "Unknown Profession";
         }
 
         /**
@@ -98,7 +115,7 @@ namespace COMP123_s2016_Lab2
         /**
         * <summary>
         * This is a constructor that takes age as a parameter and passes
-        * it to the _age private isntance variable
+        * it to the _age private instance variable
         * </summary>
         * 
         * @constructor Person
