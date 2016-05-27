@@ -31,7 +31,7 @@ namespace COMP123_s2016_Lab2
         *
         * @property {string} Name
         */
-        public string Name
+        public string Name  // CAN ALSO USE THIS: public string Name { get; set; }
         {
             get
             {
@@ -52,7 +52,7 @@ namespace COMP123_s2016_Lab2
         * @property {int} Age
         */
 
-        public int Age
+        public int Age  // CAN ALSO USE THIS: public string Age { get; set; }
         {
             get
             {
@@ -73,7 +73,7 @@ namespace COMP123_s2016_Lab2
         * @property {string} Profession
         */
 
-        public string Profession
+        public string Profession  // CAN ALSO USE THIS: public string Profession { get; set; }
         {
             get
             {
@@ -92,9 +92,20 @@ namespace COMP123_s2016_Lab2
         * </summary>
         * 
         * @property {string} Profession
-        
-            */
-        public string CollegeOrUniversity { get; set; }
+        */
+
+        public string CollegeOrUniversity  // CAN ALSO USE THIS: public string CollegeOrUniversity { get; set; }
+        {
+            get
+            {
+                return this._collegeOrUniversity;     
+            }
+
+            set
+            {
+                this._collegeOrUniversity = value;
+            }
+        }
 
         // CONSTRUCTORS ++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
